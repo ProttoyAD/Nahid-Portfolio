@@ -100,7 +100,7 @@ const MyPage = () => {
 											delay: 0.5,
 											type: "spring",
 										}}>
-										<Button variation="primary">
+										{/* <Button variation="primary">
 											<Link
 												href={"/docs/cv.pdf"}
 												target="_blank"
@@ -108,7 +108,7 @@ const MyPage = () => {
 												download>
 												Download CV
 											</Link>
-										</Button>
+										</Button> */}
 										<Button variation="secondary">
 											<a href="#contact">Contact Me</a>
 										</Button>
