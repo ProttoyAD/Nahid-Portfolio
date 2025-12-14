@@ -9,14 +9,14 @@ import { Analytics } from "@vercel/analytics/react";
 import ClientTopProgressBar from "@/components/ClientTopProgressBar";
 
 export const metadata = {
-    title: "Alvalens | Portofolio",
+    title: "Nahid Islam | Portofolio",
 
     description:
-		"My name is Alvalens, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
+		"My name is Nahid Islam, I'm a web developer and I'm passionate about it. I'm currently studying at Universitas Negeri Malang.",
 
     author: "Alvalen Shafelbilyunazra",
     siteUrl: "https://www.alvalens.my.id",
-    applicationName: "Alvalens",
+    applicationName: "Nahid Islam",
 
     keywords: [
 		"alvalens",
@@ -32,19 +32,19 @@ export const metadata = {
 
     openGraph: {
 		type: "website",
-		url: "https://www.alvalens.my.id",
-		title: "Alvalens | Portofolio",
-		site_name: "Alvalens | Portofolio",
-		description: "My name is Alvalens, This is my portofolio website.",
+		url: "https://nahid-islam.vercel.app/",
+		title: "Nahid Islam | Portofolio",
+		site_name: "Nahid Islam | Portofolio",
+		description: "My name is Nahid Islam, This is my portofolio website.",
 		width: 1200,
 		height: 630,
 		images: [
 			{
-				url: "/og-image-rev.png",
-				alt: "Alvalens Portofolio",
+				url: "/og-image.jpeg",
+				alt: "Nahid Islam Portofolio",
 			},
 		],
-		site_name: "Alvalens | Portofolio",
+		site_name: "Nahid Islam | Portofolio",
 	}
 };
 
