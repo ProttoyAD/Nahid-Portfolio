@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { useRef, useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -132,6 +132,7 @@ const NavItems = ({ isNavOpen, setIsNavOpen }) => {
 								</motion.h2>
 							</div>
 						</Link>
+						{/*
 						<Link href="/about">
 							<div
 								onClick={handleItemClick}
@@ -145,6 +146,8 @@ const NavItems = ({ isNavOpen, setIsNavOpen }) => {
 								</motion.h2>
 							</div>
 						</Link>
+						*/}
+						{/*
 						<Link href="/projects">
 							<div
 								onClick={handleItemClick}
@@ -158,6 +161,7 @@ const NavItems = ({ isNavOpen, setIsNavOpen }) => {
 								</motion.h2>
 							</div>
 						</Link>
+						*/}
 						<Link href="/#contact">
 							<div
 								onClick={handleItemClick}
@@ -194,13 +198,13 @@ const Navbar = () => {
 					isNavOpen
 						? "backdrop-filter backdrop-blur-md bg-gray-700 bg-opacity-50"
 						: "backdrop-filter backdrop-blur-md"
-				} inset-0  bg-opacity-50 flex flex-row justify-between items-center h-16 z-50 `}>
+				} inset-0  bg-opacity-50 flex flex-row justify-between items-center h-16 z-50`}>
 				<div>
 					<h1
 						className={`text-2xl ml-2 md:ml-0 transition-colors ease duration-500 ${
 							isNavOpen ? "text-white" : ""
 						}`}>
-						Alvalens
+						Brac Bank
 					</h1>
 				</div>
 				<div className="flex flex-row items-center">

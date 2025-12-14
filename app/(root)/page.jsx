@@ -11,11 +11,11 @@ import Link from "next/link";
 
 // components
 import Button from "@/components/Button";
-import Me from "@/public/image/me.jpg";
-import MeAbout from "@/public/image/me2.jpg";
+import Me from "@/public/image/me.jpeg";
 import Setup from "@/public/image/setup.jpg";
-import ProjectAll from "@/public/image/projects.png";
 import Hr from "@/components/Hr";
+// import MeAbout from "@/public/image/me2.jpg";
+// import ProjectAll from "@/public/image/projects.png";
 // icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -23,10 +23,13 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const MyPage = () => {
 	const fullpageOptions = {
-		anchors: ["home", "about", "projects", "contact"],
+		// anchors: ["home", "about", "projects", "contact"],
+		anchors: ["home", "contact"],
 		scrollingSpeed: 1000,
 		licenseKey: "gplv3-license",
 		menu: "#sidebar",
@@ -67,7 +70,7 @@ const MyPage = () => {
 											delay: 0.2,
 											type: "spring",
 										}}>
-										Alvalen Shafel
+										Nahid Islam
 									</motion.h3>
 									<motion.h1
 										className="text-black text-5xl md:text-6xl lg:text-7xl 2xl:text-8xl font-bold my-2 md:my-5"
@@ -77,7 +80,7 @@ const MyPage = () => {
 											delay: 0.3,
 											type: "spring",
 										}}>
-										Full Stack Developer
+										Assistant Relationship Officer
 									</motion.h1>
 									<motion.p
 										className="title text-md  2xl:text-xl mt-4 tracking-wider text-gray-500 leading-[1.7rem]"
@@ -87,11 +90,7 @@ const MyPage = () => {
 											delay: 0.4,
 											type: "spring",
 										}}>
-										Hi! I&rsquo;am Alvalen, A junior fullstack developer specializing in
-										modern Web Development with a growing focus on Artificial
-										Intelligence. Passionate about building scalable,
-										user-friendly web applications and exploring AI technologies
-										such as generative models and LLM integration.
+										Hi! I&rsquo;am Nahid Islam A assistan relationship Officer in Brac Bank Limited. 
 									</motion.p>
 									<motion.div
 										className="buttons flex flex-row justify-center items-center space-x-4 mt-10"
@@ -136,6 +135,7 @@ const MyPage = () => {
 								</motion.div>
 							</div>
 						</div>
+						{/*
 						<div className="section">
 							<div className="relative md:h-screen w-screen gap-4 flex justify-center items-center flex-col overflow-hidden">
 								<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
@@ -272,6 +272,7 @@ const MyPage = () => {
 								</div>
 							</div>
 						</div>
+						*/}
 						<div className="section">
 							<div className="relative md:h-screen w-screen  gap-4 p-10 flex justify-center items-center flex-col overflow-hidden">
 								<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
@@ -336,7 +337,7 @@ const MyPage = () => {
 											type: "spring",
 										}}>
 										<a href="mailto:Alvalen.shafel04@gmail.com?subject=Hello&body=Hello Alvalens,">
-											alvalen.shafel04@gmail.com
+											inahid032@gmail.com
 										</a>
 									</motion.p>
 									{/* icons */}
@@ -354,7 +355,7 @@ const MyPage = () => {
 										</motion.a>
 
 										<motion.a
-											href="https://github.com/Alvalens"
+											href="https://www.facebook.com/share/1R14iTwcW8/"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -364,10 +365,10 @@ const MyPage = () => {
 												y: { delay: 0.2 },
 												opacity: { delay: 0.3 },
 											}}>
-											<FontAwesomeIcon icon={faGithub} className="text-3xl" />
+											<FontAwesomeIcon icon={faFacebook} className="text-3xl" />
 										</motion.a>
 										<motion.a
-											href="https://www.instagram.com/alvalens_/"
+											href="https://www.instagram.com/nahidislam8669?igsh=aGZwOWczZXRrZThl"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -382,7 +383,7 @@ const MyPage = () => {
 												className="text-3xl"
 											/>
 										</motion.a>
-										<motion.a
+										{/* <motion.a
 											href="https://www.linkedin.com/in/alvalen-shafel-8a081a254/"
 											target="_blank"
 											rel="noopener noreferrer"
@@ -394,9 +395,9 @@ const MyPage = () => {
 												opacity: { delay: 0.5 },
 											}}>
 											<FontAwesomeIcon icon={faLinkedin} className="text-3xl" />
-										</motion.a>
+										</motion.a> */}
 										<motion.a
-											href="https://discordapp.com/users/bloody#6118"
+											href="https://wa.me/qr/ML6OBPYBRQ4AD1"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
@@ -406,7 +407,7 @@ const MyPage = () => {
 												y: { delay: 0.5 },
 												opacity: { delay: 0.6 },
 											}}>
-											<FontAwesomeIcon icon={faDiscord} className="text-3xl" />
+											<FontAwesomeIcon icon={faWhatsapp} className="text-3xl" />
 										</motion.a>
 									</div>
 								</div>
