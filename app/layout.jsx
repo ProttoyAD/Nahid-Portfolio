@@ -40,7 +40,7 @@ export const metadata = {
 		height: 630,
 		images: [
 			{
-				url: "\og-image-rev.png",
+				url: "/og-image-rev.png",
 				alt: "Nahid Islam Portofolio",
 			},
 		],
